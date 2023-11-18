@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Snapshot" id="{59a98395-1834-449d-8e5f-789a7295605e}">
+		<property name="name">
+			<value>SubmarineRoom</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{f1853ce1-3aec-406b-8581-182fb6da643a}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{c1b39276-a518-489b-a09f-ff0470ced3cd}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{4b258354-80a4-4de6-a6af-15e549a92b48}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{fb3fd665-0819-43aa-951c-7410a4c178f7}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{abee34ff-9333-4096-aaaa-cd2ddb2b5180}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{c1b39276-a518-489b-a09f-ff0470ced3cd}" />
+	<object class="MarkerTrack" id="{4b258354-80a4-4de6-a6af-15e549a92b48}" />
+	<object class="Timeline" id="{fb3fd665-0819-43aa-951c-7410a4c178f7}" />
+	<object class="SnapshotMasterTrack" id="{abee34ff-9333-4096-aaaa-cd2ddb2b5180}" />
+</objects>

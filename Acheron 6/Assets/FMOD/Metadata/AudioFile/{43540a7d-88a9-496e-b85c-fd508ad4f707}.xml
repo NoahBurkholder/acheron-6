@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{43540a7d-88a9-496e-b85c-fd508ad4f707}">
+		<property name="assetPath">
+			<value>better_chain_sample.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.604354166666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b8846c50-76ec-4571-abbc-4d64c185a916}</destination>
+		</relationship>
+	</object>
+</objects>

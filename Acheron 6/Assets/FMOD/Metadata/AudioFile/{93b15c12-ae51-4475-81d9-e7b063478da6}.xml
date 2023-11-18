@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{93b15c12-ae51-4475-81d9-e7b063478da6}">
+		<property name="assetPath">
+			<value>Gasp-Light_06.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.4301041666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b8846c50-76ec-4571-abbc-4d64c185a916}</destination>
+		</relationship>
+	</object>
+</objects>

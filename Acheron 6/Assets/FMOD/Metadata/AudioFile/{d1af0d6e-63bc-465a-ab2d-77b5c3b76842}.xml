@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{d1af0d6e-63bc-465a-ab2d-77b5c3b76842}">
+		<property name="assetPath">
+			<value>Gasp-Medium_04.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>3.0532291666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b8846c50-76ec-4571-abbc-4d64c185a916}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerReturn" id="{7b94c4b3-0da0-429a-807f-eae41738d38c}">
+		<property name="color">
+			<value>Cyan</value>
+		</property>
+		<property name="overridingInputFormat">
+			<value>2</value>
+		</property>
+		<property name="inputFormatOverridden">
+			<value>true</value>
+		</property>
+		<property name="name">
+			<value>Reverb</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{c8ee89b1-a77e-4fa5-bc35-b90702b5c5a7}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{6ab13102-6b9b-4099-9ca1-a35c83c875d3}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{cdbcb7b5-bb53-480c-b6a7-76f5f5ea4b6e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{c8ee89b1-a77e-4fa5-bc35-b90702b5c5a7}">
+		<relationship name="effects">
+			<destination>{7143996d-4546-4d1d-9182-9990ea68bede}</destination>
+			<destination>{0b0a6ed1-a9e6-4ca7-8031-3872636d1e61}</destination>
+			<destination>{e851dd86-7ba4-4004-a86f-fd50136b383d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{6ab13102-6b9b-4099-9ca1-a35c83c875d3}" />
+	<object class="SFXReverbEffect" id="{7143996d-4546-4d1d-9182-9990ea68bede}">
+		<property name="decayTime">
+			<value>4000</value>
+		</property>
+		<property name="lateDelay">
+			<value>80</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>12</value>
+		</property>
+		<property name="highCut">
+			<value>10500</value>
+		</property>
+		<property name="wetLevel">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{04a1449f-bda6-4006-b371-8c2425ab1b41}</destination>
+		</relationship>
+	</object>
+	<object class="ThreeEQEffect" id="{0b0a6ed1-a9e6-4ca7-8031-3872636d1e61}">
+		<property name="lowCrossover">
+			<value>200</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{e851dd86-7ba4-4004-a86f-fd50136b383d}" />
+	<object class="Automator" id="{04a1449f-bda6-4006-b371-8c2425ab1b41}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>decayTime</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{9287dee2-5ade-4680-a83d-e45d5aae7b37}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{9287dee2-5ade-4680-a83d-e45d5aae7b37}">
+		<relationship name="parameter">
+			<destination>{71837a2e-0bce-4a7b-843b-126575f2e01f}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{f1737d49-d6fa-48f6-9003-c7a53ed683cd}</destination>
+			<destination>{1b1141b4-6f4b-431e-94d5-e723cb97ec71}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{f1737d49-d6fa-48f6-9003-c7a53ed683cd}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>1800</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{1b1141b4-6f4b-431e-94d5-e723cb97ec71}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>4200</value>
+		</property>
+	</object>
+</objects>

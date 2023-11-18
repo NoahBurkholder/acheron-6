@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{1d8b9446-6463-4a6f-bf13-cce483347311}">
+		<property name="assetPath">
+			<value>Alarm-Klaxon_02_Shortened.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>38</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{58d4e0de-2aaa-4157-b55d-b3d1ef0a2157}</destination>
+		</relationship>
+	</object>
+</objects>

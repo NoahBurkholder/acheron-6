@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{4376d9af-1fc3-4d46-b8dc-45dbe6d4a087}">
+		<property name="assetPath">
+			<value>underwater_rumble_sample.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{58d4e0de-2aaa-4157-b55d-b3d1ef0a2157}</destination>
+		</relationship>
+	</object>
+</objects>

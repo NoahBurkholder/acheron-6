@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{41040d6e-d160-4057-b66b-9ee095fe2a00}">
+		<property name="name">
+			<value>Switch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d4a61e48-5d2e-4450-96ee-24157446bf1d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{368cbf0c-fa23-426f-a642-4eedab4c90d3}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{368cbf0c-fa23-426f-a642-4eedab4c90d3}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Light</value>
+			<value>Medium</value>
+			<value>Heavy</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

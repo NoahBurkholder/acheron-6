@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Snapshot" id="{c7402393-ed84-407a-90ab-77b0f7fe6537}">
+		<property name="name">
+			<value>SubmarineUnderwaterBlend</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{f12e6b96-7854-43af-96fe-7151558e9b3d}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{030b2314-2680-4d19-9971-e97a2bbaa812}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{c29bc300-6992-4bb1-949a-729419f6f8ca}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{f7f2a1c5-da1e-4953-9671-92b398fdb724}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{efb8e3fa-8989-4303-af43-fd0d01f0b52d}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{030b2314-2680-4d19-9971-e97a2bbaa812}" />
+	<object class="MarkerTrack" id="{c29bc300-6992-4bb1-949a-729419f6f8ca}" />
+	<object class="Timeline" id="{f7f2a1c5-da1e-4953-9671-92b398fdb724}" />
+	<object class="SnapshotMasterTrack" id="{efb8e3fa-8989-4303-af43-fd0d01f0b52d}" />
+</objects>
